@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Teenhoso Generator</title>
+	<link rel="stylesheet" href="css/style.css">
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+
+<body style="height: 100%;">
+<!-- <div style="width: 100%; text-align: center;"><H1 class="title">Teenhoso Generator</H1></div> -->
+<img src="images/TeenhosoGenerator.png" alt="Tinhoso Generator" height="50%" width="100%" align="middle" style="margin:0 auto;" >
+
+		<form id="ipsum-form" action="#" method="post">
+			<div style="width: 100%;">
+				<p style="text-align:center;">Quantidade de capetas: <input id="paragraph_count" style=" width: 35px; border:1px solid #a1a1a1; text-align: center; text-align:center; margin-left:0.5em;" type="number" maxlength="2" value = "1" max="10"/>
+				<br>
+				<input type="submit" id="submit" value="Gerar" style="text-align:center;"/>
+				</p>
+				
+			</div>
+		</form>
+
+		<div id="print-paragraphs-wrapper">
+			<div id="blur"></div>
+			<div id="print-paragraphs-contents"></div>
+		</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.8.0.min.js"><\/script>')</script>
+	<script src="js/TeenhosoGenerator.js"></script>
+</body>
+</html>
